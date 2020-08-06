@@ -1,0 +1,8 @@
+version: '2'
+
+tasks:
+
+  dev:
+    desc: Run a browsersync dev server to edit and experiment with HTML.
+    cmds:
+      - browser-sync start --server --files .
